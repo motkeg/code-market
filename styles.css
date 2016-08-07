@@ -9,8 +9,14 @@ h2, h3 {
   font-family: Arial, Helvetica, sans-serif;   
   font-weight: lighter;
 }
-body { 
+#main {
   /*margin: 2em; */
+
+  background: #fff url('app/assets/header-bg.jpg') center center no-repeat;
+  max-width: 100%;
+  background-size:cover;
+  display: flex;
+
 }
 body, input[text], button { 
   color: #888; 
